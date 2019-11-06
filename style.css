@@ -9,11 +9,10 @@ background-color: black;
 top: 0;
 left: 0;
 right: 0;
-
+position: absolute;
 }
 .FirstAbzas{
     transition: 2s;
-    top: -78vh;
     font-size: 65px;
     position: relative;
     display: flex;
@@ -34,26 +33,23 @@ right: 0;
     transition: font-size 500ms ease-in-out;
     }
    @media only screen and (min-width: 40.063em) {
-    .logo {
-    margin-top: 30vh;
-    font-size: 80px;
+    .FirstAbzas {
+    
+    font-size: 40px;
     }
    }
    @media only screen and (min-width: 64.063em) {
-    .logo {
-    margin-top: 25vh;
+    .FirstAbzas {
     font-size: 80px;
     }
    }
    @media only screen and (min-width: 90.063em) {
-    .logo {
-    margin-top: 20vh;
+    .FirstAbzas {
     font-size: 80px;
     }
    }
    @media only screen and (min-width: 120.063em) {
-    .logo {
-    margin-top: 15vh;
+    .FirstAbzas {
     font-size: 80px;
     }
    }
@@ -64,4 +60,34 @@ right: 0;
     100% {
     background-position: 3200px 0;
     }
+   }
+   .navbar-block{
+       
+    position: absolute;
+    display: flex;
+    list-style: none;
+    font-size: 31px;
+    width: 97vw;
+    height: 54px;
+    background-color: wheat;
+    justify-content: center;
+    bottom: -104px;
+   }
+   .navbar{
+    font-family: 'Oswald', sans-serif;
+    padding-right: 5%;
+   }
+   .navbar:hover{
+    background: -webkit-linear-gradient(left, #33235B, #D62229, #E97639, #792042, #33235B);
+    background: linear-gradient(left, #33235B, #D62229, #E97639, #792042, #33235B);
+    background-size: 3200px 200px;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-animation: animate-logo;
+    -webkit-animation-delay: 0;
+    -webkit-animation-duration: 7s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-fill-mode: forwards;
+    transition: font-size 500ms ease-in-out;
    }
