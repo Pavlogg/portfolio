@@ -1,3 +1,4 @@
+
 var opts = {
     count: 2, //Increases the spawn rate
     size: 30, //Minimal is one
