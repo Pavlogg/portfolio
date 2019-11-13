@@ -2,10 +2,9 @@ body{
 margin: 0;
 padding: 0;
 overflow: scroll;
-
 }
 html{
-    scroll-behavior: smooth;
+scroll-behavior: smooth;
 }
 #canvas{
 width: 99vw;
@@ -15,145 +14,151 @@ left: 0;
 right: 0;
 position: absolute;
 }
-@media screen and (max-width:1200px){
-#canvas{
-height: 20%;
-}
-}
 .FirstAbzas{
-    transition: 2s;
-    font-size: 65px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    background: -webkit-linear-gradient(left, #33235B, #D62229, #E97639, #792042, #33235B);
-    background: linear-gradient(left, #33235B, #D62229, #E97639, #792042, #33235B);
-    background-size: 3200px 200px;
-    color: transparent;
-    -webkit-background-clip: text;
-    -webkit-animation: animate-logo;
-    -webkit-animation-delay: 0;
-    -webkit-animation-duration: 7s;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-fill-mode: forwards;
-    transition: font-size 500ms ease-in-out;
+transition: 2s;
+font-size: 65px;
+position: relative;
+display: flex;
+justify-content: center;
+text-align: center;
+font-family: 'Oswald', sans-serif;
+background: -webkit-linear-gradient(left, #33235B, #D62229, #E97639, #792042, #33235B);
+background: linear-gradient(left, #33235B, #D62229, #E97639, #792042, #33235B);
+background-size: 3200px 200px;
+color: transparent;
+-webkit-background-clip: text;
+-webkit-animation: animate-logo;
+-webkit-animation-delay: 0;
+-webkit-animation-duration: 7s;
+-webkit-animation-timing-function: linear;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-fill-mode: forwards;
+transition: font-size 500ms ease-in-out;
+}
+.navbar-block{
+transition: 1s;
+position: absolute;
+display: flex;
+list-style: none;
+font-size: 31px;
+width: 97vw;
+height: 54px;
+background-color: #b3d2f5;
+justify-content: center;
+bottom: -104px;
+border-bottom:solid 4px ;
+}
+.navbar{
+text-decoration: none;
+font-family: 'Oswald', sans-serif;
+padding-right: 5%;
+}
+.navbar:hover{
+background: -webkit-linear-gradient(left, #33235B, #D62229, #E97639, #792042, #33235B);
+background: linear-gradient(left, #33235B, #D62229, #E97639, #792042, #33235B);
+background-size: 3200px 200px;
+color: transparent;
+-webkit-background-clip: text;
+-webkit-animation: animate-logo;
+-webkit-animation-delay: 0;
+-webkit-animation-duration: 7s;
+-webkit-animation-timing-function: linear;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-fill-mode: forwards;
+transition: font-size 500ms ease-in-out;
+}
+.About-text{
+font-family: 'Oswald', sans-serif;
+display: flex;
+justify-content: center;
+font-size: 66px;
+margin-top: 157px;
+color: #80acde;
+top:65vh;
+position: relative;
+}
+.About{
+justify-content: center;
+display: flex;
+top: 71vh;
+position: relative;
+width: 97vw;
+height: auto;
+}
+.AboutBlock-text{
+font-family: 'Oswald', sans-serif;
+display: flex;
+justify-content: center;
+color: #1c4471;
+}
+.AboutBlock-text2{
+font-family: 'Oswald', sans-serif;
+font-size: 17px;
+position: relative;
+left: 25%;
+display: flex;
+letter-spacing: 0px;
+color: #0d4380;
+width: 50%;
+flex-wrap: wrap;
+}
+.fas{
+color: #80acde;
+justify-content: center;
+display: flex;
+font-size: 61px;
+font-weight: 900;
+}
+.far{
+color: #80acde;
+justify-content: center;
+display: flex;
+font-size: 61px;
+font-weight: 900;
+}
+@media only screen and (max-width:1200px){
+.navbar-block{
+bottom: 0;
+top:20vh;
+}
+#About{
+position: relative;
+top:18vh;
+}
+.About-text{
+position: relative;
+top: 9vh;
+}
+#canvas{
+    height: 20%;
     }
-   @media only screen and (min-width: 40.063em) {
+}
+@media only screen and (min-width: 40.063em) {
     .FirstAbzas {
-    
     font-size: 40px;
     }
-   }
-   @media only screen and (min-width: 64.063em) {
+    }
+    @media only screen and (min-width: 64.063em) {
     .FirstAbzas {
     font-size: 80px;
     }
-   }
-   @media only screen and (min-width: 90.063em) {
+    }
+    @media only screen and (min-width: 90.063em) {
     .FirstAbzas {
     font-size: 80px;
     }
-   }
-   @media only screen and (min-width: 120.063em) {
+    }
+    @media only screen and (min-width: 120.063em) {
     .FirstAbzas {
     font-size: 80px;
     }
-   }
-   @-webkit-keyframes animate-logo {
+    }
+    @-webkit-keyframes animate-logo {
     0% {
     background-position: 0 3200px;
     }
     100% {
     background-position: 3200px 0;
     }
-   }
-   .navbar-block{
-    transition: 1s;
-    position: absolute;
-    display: flex;
-    list-style: none;
-    font-size: 31px;
-    width: 97vw;
-    height: 54px;
-    background-color: #b3d2f5;
-    justify-content: center;
-    bottom: -104px;
-    border-bottom:solid 4px ;
-    
-   }
-   .navbar{
-    text-decoration: none;
-    font-family: 'Oswald', sans-serif;
-    padding-right: 5%;
-   }
-   @media screen and (max-width:500px){
-    .navbar-block{
-    width: 88vw;
     }
-   }
-   .navbar:hover{
-    background: -webkit-linear-gradient(left, #33235B, #D62229, #E97639, #792042, #33235B);
-    background: linear-gradient(left, #33235B, #D62229, #E97639, #792042, #33235B);
-    background-size: 3200px 200px;
-    color: transparent;
-    -webkit-background-clip: text;
-    -webkit-animation: animate-logo;
-    -webkit-animation-delay: 0;
-    -webkit-animation-duration: 7s;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-fill-mode: forwards;
-    transition: font-size 500ms ease-in-out;
-   }
-   .About-text{
-    font-family: 'Oswald', sans-serif;
-    display: flex;
-    justify-content: center;
-    font-size: 66px;
-    margin-top: 157px;
-    color: #80acde;
-    top:65vh;
-    position: relative;
-   }
-   .About{
-       justify-content: center;
-       display: flex;
-       top: 71vh;
-    position: relative;
-    width: 97vw;
-    height: auto;
-   }
-   .AboutBlock-text{
-    font-family: 'Oswald', sans-serif;
-    display: flex;
-    justify-content: center;
-    color: #1c4471;
-   }
-   .AboutBlock-text2{
-    font-family: 'Oswald', sans-serif;
-    font-size: 17px;
-    position: relative;
-    left: 25%;
-    display: flex;
-    letter-spacing: 0px;
-    color: #0d4380;
-    width: 50%;
-    flex-wrap: wrap;
-   }
-   .fas{
-       color: #80acde;
-    justify-content: center;
-    display: flex;
-    font-size: 61px;
-    font-weight: 900;
-   }
-   .far{
-    color: #80acde;
-    justify-content: center;
-    display: flex;
-    font-size: 61px;
-    font-weight: 900;
-   }
+    
