@@ -49,23 +49,14 @@ bottom: -104px;
 border-bottom:solid 4px ;
 }
 .navbar{
+    color: #5b97da;
 text-decoration: none;
 font-family: 'Oswald', sans-serif;
 padding-right: 5%;
 }
 .navbar:hover{
-background: -webkit-linear-gradient(left, #33235B, #D62229, #E97639, #792042, #33235B);
-background: linear-gradient(left, #33235B, #D62229, #E97639, #792042, #33235B);
-background-size: 3200px 200px;
-color: transparent;
--webkit-background-clip: text;
--webkit-animation: animate-logo;
--webkit-animation-delay: 0;
--webkit-animation-duration: 7s;
--webkit-animation-timing-function: linear;
--webkit-animation-iteration-count: infinite;
--webkit-animation-fill-mode: forwards;
-transition: font-size 500ms ease-in-out;
+    color: #023873;
+    transition: 2s;
 }
 .About-text{
 font-family: 'Oswald', sans-serif;
@@ -193,7 +184,7 @@ font-weight: 900;
 bottom: 0;
 top:20vh;
 }
-#About{
+.About{
 position: relative;
 top:18vh;
 }
@@ -238,7 +229,6 @@ top: 20vh;
     }
 .Projects{
 position: relative;
-top: 80vh;
 }
 .projects-text{
 color: #2e2d84;
@@ -307,4 +297,9 @@ background-color: rgb(61, 59, 101);
 }
 .projects-text5:hover{
 background-color: rgb(61, 59, 101);
-}    
+} 
+.foto-project{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
