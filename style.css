@@ -247,6 +247,7 @@ justify-content: center;
 width: 97vw;
 }
 .projects-text2{
+cursor: pointer;
 font-size: 27px;
 text-align: center;
 margin-right: 5%;
@@ -257,6 +258,7 @@ list-style: none;
 transition: 2s;
 }
 .projects-text3{
+cursor: pointer;
 font-size: 27px;
 text-align: center;
 margin-right: 5%;
@@ -267,6 +269,7 @@ list-style: none;
 transition: 2s;
 }
 .projects-text4{
+cursor: pointer;
 font-size: 27px;    
 text-align: center;
 margin-right: 5%;    
@@ -277,6 +280,7 @@ list-style: none;
 transition: 2s;
 }
 .projects-text5{
+cursor: pointer;    
 font-size: 27px;    
 text-align: center;
 margin-right: 5%;    
