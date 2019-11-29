@@ -183,6 +183,18 @@ font-weight: 900;
     .projects-text5:hover{
     background-color: rgb(61, 59, 101);
     }    
+    .Contacts{
+        position: relative;
+        top:85vh;
+        }
+        .contacts-text{
+        color: #2e2d84;
+        font-size: 66px;
+        font-family: 'Oswald', sans-serif;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        }
 @media only screen and (max-width:1200px){
 .navbar-block{
 bottom: 0;
@@ -202,7 +214,11 @@ top: 9vh;
 .Projects{
 top: 20vh;
 }
+.Contacts{
+top: 25vh;
 }
+}
+
 @media only screen and (min-width: 40.063em) {
     .FirstAbzas {
     font-size: 40px;
@@ -231,81 +247,8 @@ top: 20vh;
     background-position: 3200px 0;
     }
     }
-.Projects{
-position: relative;
-}
-.projects-text{
-color: #2e2d84;
-font-size: 66px;
-font-family: 'Oswald', sans-serif;
-display: flex;
-justify-content: center;
-text-align: center;
-}
-.projects-navbar{
-height: 54px;
-transition: 1s;
-position: relative;
-display: flex;
-justify-content: center;
-width: 97vw;
-}
-.projects-text2{
-cursor: pointer;
-font-size: 27px;
-text-align: center;
-margin-right: 5%;
-width: 8%;
-font-family: 'Oswald', sans-serif;
-text-decoration: none;
-list-style: none;
-transition: 2s;
-}
-.projects-text3{
-cursor: pointer;
-font-size: 27px;
-text-align: center;
-margin-right: 5%;
-width: 8%;
-font-family: 'Oswald', sans-serif;
-text-decoration: none;
-list-style: none;
-transition: 2s;
-}
-.projects-text4{
-cursor: pointer;
-font-size: 27px;    
-text-align: center;
-margin-right: 5%;    
-width: 8%;
-font-family: 'Oswald', sans-serif;
-text-decoration: none;
-list-style: none;
-transition: 2s;
-}
-.projects-text5{
-cursor: pointer;    
-font-size: 27px;    
-text-align: center;
-margin-right: 5%;    
-width: 8%;
-font-family: 'Oswald', sans-serif;
-text-decoration: none;
-list-style: none;
-transition: 2s;
-}
-.projects-text2:hover{
-background-color: rgb(61, 59, 101);
-    }
-.projects-text3:hover{
-background-color: rgb(61, 59, 101);
-}
-.projects-text4:hover{
-background-color: rgb(61, 59, 101);
-}
-.projects-text5:hover{
-background-color: rgb(61, 59, 101);
-} 
+
+
 .foto-project{
 display: flex;
 flex-wrap: wrap;
