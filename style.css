@@ -195,6 +195,35 @@ font-weight: 900;
         justify-content: center;
         text-align: center;
         }
+        .text-WhoAmI{
+            font-family: 'Oswald', sans-serif;
+        }
+        .text-FrontEnd{
+            font-family: 'Oswald', sans-serif;
+        }
+        .WhoAmI{
+            justify-content: center;
+            display: flex;
+            top: 71vh;
+            position: relative;
+            width: 97vw;
+            height: auto;
+        }
+        .WhoAmI-block{
+            margin-top: 20vh;
+            margin-right: 41vw;
+            top: 4vh;
+            position: relative;
+            width: 24vw;
+            height: auto;
+        }
+        .octagon{
+
+            width: 300px;
+            height: 300px;
+           border-radius: 100px 100px 100px 100px; 
+        }
+
 @media only screen and (max-width:1200px){
 .navbar-block{
 bottom: 0;
@@ -247,8 +276,6 @@ top: 25vh;
     background-position: 3200px 0;
     }
     }
-
-
 .foto-project{
 display: flex;
 flex-wrap: wrap;
