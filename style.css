@@ -246,6 +246,14 @@ top: 20vh;
 .Contacts{
 top: 25vh;
 }
+.WhoAmI{
+top:0;
+}
+.text-WhoAmI{
+    font-size: 15px;
+    }
+.text-FrontEnd{
+font-size: 9px;
 }
 
 @media only screen and (min-width: 40.063em) {
