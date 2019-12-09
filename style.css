@@ -186,9 +186,10 @@ font-weight: 900;
     .Contacts{
         position: relative;
         top:85vh;
+        background-color: black;
         }
         .contacts-text{
-        color: #2e2d84;
+        color: #38189c;
         font-size: 66px;
         font-family: 'Oswald', sans-serif;
         display: flex;
@@ -223,7 +224,11 @@ font-weight: 900;
             height: 300px;
            border-radius: 100px 100px 100px 100px; 
         }
+.icons{
+display: flex;
+justify-content: center;
 
+}
 @media only screen and (max-width:1200px){
 .navbar-block{
 bottom: 0;
