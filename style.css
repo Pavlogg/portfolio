@@ -234,6 +234,15 @@ justify-content: center;
     flex-wrap: wrap;
     justify-content: center;
     }
+.button-up{
+display: flex;
+justify-content: center;
+cursor: pointer;
+    }
+.link-up{
+list-style: none;
+text-decoration: none;
+}
 @media only screen and (max-width:1200px){
 .navbar-block{
 bottom: 0;
