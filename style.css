@@ -243,6 +243,28 @@ cursor: pointer;
 list-style: none;
 text-decoration: none;
 }
+.skills{
+position: relative;
+right: 300px;
+top: 150px;
+}
+.skills-block{
+    margin-block-start: 20px;
+    width: 400px;
+    background-color: blue;
+display: flex;
+}
+.skills-inside{
+width: 75%;
+display: flex;
+background-color: rebeccapurple;
+}
+.skills-text{
+    font-family: 'Oswald', sans-serif;
+}
+.text-block{
+margin-inline-start: auto;
+}
 @media only screen and (max-width:1200px){
 .navbar-block{
 bottom: 0;
