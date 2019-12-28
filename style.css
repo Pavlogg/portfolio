@@ -209,6 +209,7 @@ font-weight: 900;
             position: relative;
             width: 97vw;
             height: auto;
+            flex-wrap: wrap;
         }
         .WhoAmI-block{
             margin-top: 20vh;
@@ -251,19 +252,20 @@ top: 150px;
 .skills-block{
     margin-block-start: 20px;
     width: 400px;
-    background-color: blue;
+    background-color: #7776ca;
 display: flex;
 }
 .skills-inside{
-width: 75%;
 display: flex;
-background-color: rebeccapurple;
+background-color:  rgb(0, 129, 134);
 }
 .skills-text{
     font-family: 'Oswald', sans-serif;
 }
 .text-block{
+font-size: 17px;
 margin-inline-start: auto;
+font-family: 'Oswald', sans-serif;
 }
 @media only screen and (max-width:1200px){
 .navbar-block{
@@ -296,7 +298,9 @@ top:0;
 .text-FrontEnd{
 font-size: 9px;
 }
-
+.skills{
+right: 0;
+}
 @media only screen and (min-width: 40.063em) {
     .FirstAbzas {
     font-size: 40px;
