@@ -108,138 +108,136 @@ font-size: 61px;
 font-weight: 900;
 }
 .Projects{
-    position: relative;
-    top: 80vh;
-    }
-    .projects-text{
-    color: #2e2d84;
-    font-size: 66px;
-    font-family: 'Oswald', sans-serif;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    }
-    .projects-navbar{
-    height: 54px;
-    transition: 1s;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    width: 97vw;
-    }
-    .projects-text2{
-    cursor: pointer;
-    font-size: 27px;
-    text-align: center;
-    margin-right: 5%;
-    width: 8%;
-    font-family: 'Oswald', sans-serif;
-    text-decoration: none;
-    list-style: none;
-    transition: 2s;
-    }
-    .projects-text3{
-    cursor: pointer;
-    font-size: 27px;
-    text-align: center;
-    margin-right: 5%;
-    width: 8%;
-    font-family: 'Oswald', sans-serif;
-    text-decoration: none;
-    list-style: none;
-    transition: 2s;
-    }
-    .projects-text4{
-    cursor: pointer;    
-    font-size: 27px;    
-    text-align: center;
-    margin-right: 5%;    
-    width: 8%;
-    font-family: 'Oswald', sans-serif;
-    text-decoration: none;
-    list-style: none;
-    transition: 2s;
-    }
-    .projects-text5{
-    cursor: pointer;
-    font-size: 27px;    
-    text-align: center;
-    margin-right: 5%;    
-    width: 8%;
-    font-family: 'Oswald', sans-serif;
-    text-decoration: none;
-    list-style: none;
-    transition: 2s;
-    }
-    .projects-text2:hover{
-    background-color: rgb(61, 59, 101);
-        }
-    .projects-text3:hover{
-    background-color: rgb(61, 59, 101);
-    }
-    .projects-text4:hover{
-    background-color: rgb(61, 59, 101);
-    }
-    .projects-text5:hover{
-    background-color: rgb(61, 59, 101);
-    }    
-    .Contacts{
-        position: relative;
-        top:85vh;
-        background-color: black;
-        }
-        .contacts-text{
-        color: #38189c;
-        font-size: 66px;
-        font-family: 'Oswald', sans-serif;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        }
-        .text-WhoAmI{
-            font-family: 'Oswald', sans-serif;
-        }
-        .text-FrontEnd{
-            font-family: 'Oswald', sans-serif;
-        }
-        .WhoAmI{
-            justify-content: center;
-            display: flex;
-            top: 71vh;
-            position: relative;
-            width: 97vw;
-            height: auto;
-            flex-wrap: wrap;
-        }
-        .WhoAmI-block{
-            margin-top: 20vh;
-            margin-right: 41vw;
-            top: 4vh;
-            position: relative;
-            width: 24vw;
-            height: auto;
-        }
-        .octagon{
-
-            width: 300px;
-            height: 300px;
-           border-radius: 100px 100px 100px 100px; 
-        }
+position: relative;
+top: 80vh;
+}
+.projects-text{
+color: #2e2d84;
+font-size: 66px;
+font-family: 'Oswald', sans-serif;
+display: flex;
+justify-content: center;
+text-align: center;
+}
+.projects-navbar{
+height: 54px;
+transition: 1s;
+position: relative;
+display: flex;
+justify-content: center;
+width: 97vw;
+}
+.projects-text2{
+cursor: pointer;
+font-size: 27px;
+text-align: center;
+margin-right: 5%;
+width: 8%;
+font-family: 'Oswald', sans-serif;
+text-decoration: none;
+list-style: none;
+transition: 2s;
+}
+.projects-text3{
+cursor: pointer;
+font-size: 27px;
+text-align: center;
+margin-right: 5%;
+width: 8%;
+font-family: 'Oswald', sans-serif;
+text-decoration: none;
+list-style: none;
+transition: 2s;
+}
+.projects-text4{
+cursor: pointer;    
+font-size: 27px;    
+text-align: center;
+margin-right: 5%;    
+width: 8%;
+font-family: 'Oswald', sans-serif;
+text-decoration: none;
+list-style: none;
+transition: 2s;
+}
+.projects-text5{
+cursor: pointer;
+font-size: 27px;    
+text-align: center;
+margin-right: 5%;    
+width: 8%;
+font-family: 'Oswald', sans-serif;
+text-decoration: none;
+list-style: none;
+transition: 2s;
+}
+.projects-text2:hover{
+background-color: rgb(61, 59, 101);
+}
+.projects-text3:hover{
+background-color: rgb(61, 59, 101);
+}
+.projects-text4:hover{
+background-color: rgb(61, 59, 101);
+}
+.projects-text5:hover{
+background-color: rgb(61, 59, 101);
+}    
+.Contacts{
+position: relative;
+top:85vh;
+background-color: black;
+}
+.contacts-text{
+color: #38189c;
+font-size: 66px;
+font-family: 'Oswald', sans-serif;
+display: flex;
+justify-content: center;
+text-align: center;
+}
+.text-WhoAmI{
+font-family: 'Oswald', sans-serif;
+}
+.text-FrontEnd{
+font-family: 'Oswald', sans-serif;
+}
+.WhoAmI{
+justify-content: center;
+display: flex;
+top: 71vh;
+position: relative;
+width: 97vw;
+height: auto;
+flex-wrap: wrap;
+}
+.WhoAmI-block{
+margin-top: 20vh;
+margin-right: 41vw;
+top: 4vh;
+position: relative;
+width: 24vw;
+height: auto;
+}
+.octagon{
+width: 300px;
+height: 300px;
+border-radius: 100px 100px 100px 100px; 
+}
 .icons{
 display: flex;
 justify-content: center;
-
 }
 .foto-project{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    }
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
 .button-up{
 display: flex;
 justify-content: center;
 cursor: pointer;
-    }
+}
 .link-up{
 list-style: none;
 text-decoration: none;
@@ -250,9 +248,9 @@ right: 300px;
 top: 150px;
 }
 .skills-block{
-    margin-block-start: 20px;
-    width: 400px;
-    background-color: #7776ca;
+margin-block-start: 20px;
+width: 400px;
+background-color: #7776ca;
 display: flex;
 }
 .skills-inside{
@@ -260,7 +258,7 @@ display: flex;
 background-color:  rgb(0, 129, 134);
 }
 .skills-text{
-    font-family: 'Oswald', sans-serif;
+font-family: 'Oswald', sans-serif;
 }
 .text-block{
 font-size: 17px;
@@ -281,8 +279,8 @@ position: relative;
 top: 9vh;
 }
 #canvas{
-    height: 20%;
-    }
+height: 20%;
+}
 .Projects{
 top: 20vh;
 }
@@ -293,8 +291,8 @@ top: 25vh;
 top:0;
 }
 .text-WhoAmI{
-    font-size: 15px;
-    }
+font-size: 15px;
+}
 .text-FrontEnd{
 font-size: 9px;
 }
@@ -302,31 +300,31 @@ font-size: 9px;
 right: 0;
 }
 @media only screen and (min-width: 40.063em) {
-    .FirstAbzas {
-    font-size: 40px;
-    }
-    }
-    @media only screen and (min-width: 64.063em) {
-    .FirstAbzas {
-    font-size: 80px;
-    }
-    }
-    @media only screen and (min-width: 90.063em) {
-    .FirstAbzas {
-    font-size: 80px;
-    }
-    }
-    @media only screen and (min-width: 120.063em) {
-    .FirstAbzas {
-    font-size: 80px;
-    }
-    }
-    @-webkit-keyframes animate-logo {
-    0% {
-    background-position: 0 3200px;
-    }
-    100% {
-    background-position: 3200px 0;
-    }
-    }
+.FirstAbzas {
+font-size: 40px;
+}
+}
+@media only screen and (min-width: 64.063em) {
+.FirstAbzas {
+font-size: 80px;
+}
+}
+@media only screen and (min-width: 90.063em) {
+.FirstAbzas {
+font-size: 80px;
+}
+}
+@media only screen and (min-width: 120.063em) {
+.FirstAbzas {
+font-size: 80px;
+}
+}
+@-webkit-keyframes animate-logo {
+0% {
+background-position: 0 3200px;
+}
+100% {
+background-position: 3200px 0;
+}
+}
 
