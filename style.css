@@ -8,7 +8,6 @@ scroll-behavior: smooth;
 }
 #canvas{
 width: 99vw;
-background-color: black;
 top: 0;
 left: 0;
 right: 0;
@@ -265,6 +264,9 @@ font-size: 17px;
 margin-inline-start: auto;
 font-family: 'Oswald', sans-serif;
 }
+.foto-project_active{
+opacity: 0;
+}
 @media only screen and (max-width:1200px){
 .navbar-block{
 bottom: 0;
@@ -327,4 +329,3 @@ background-position: 0 3200px;
 background-position: 3200px 0;
 }
 }
-

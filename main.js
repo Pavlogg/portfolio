@@ -57,3 +57,8 @@ function isNaturalNumber(n) {
     n2 = parseInt(n, 10);
   return !isNaN(n1) && n2 === n1 && n1.toString() === n;
 }
+$('projects-text2 ').on('click', function(e) {
+  e.preventDefault();
+  $(this).toggleClass('projects-text2 _active');
+  $('foto-project ').toggleClass('foto-project _active');
+});
