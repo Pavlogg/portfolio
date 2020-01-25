@@ -104,16 +104,13 @@
     <div class="Projects ">
    <h1 class="projects-text wow bounceInLeft" id="Projects">Projects</h1>
    <ul class="projects-navbar">
-       <button class="projects-text2 projects-text2 _active wow fadeIn">All</button>
-       <li class="projects-text3 projects-text3_active wow fadeIn">React</li>
-       <li class="projects-text4 wow fadeIn">HTML&CSS</li>
-       <li class="projects-text5 wow fadeIn">Javascript</li>
+       <button class="projects-text2 wow fadeIn" onclick="buttonHandler('all')" data-filter="all">All</button>
+       <button class="projects-text3 wow fadeIn"  onclick="buttonHandler('react')">React</button>
+       <button class="projects-text4 wow fadeIn"  onclick="buttonHandler('html')">HTML&CSS</button>
+       <button class="projects-text5 wow fadeIn" onclick="buttonHandler('js')">Javascript</button>
    </ul>
-   <div class="foto-project  foto-project _active wow fadeInUp">
-       <a href="https://pavlogg.github.io/AmliCode/"><img src="portfolio-foto/2.png" alt="" style="width:587px;height: 344px;"></a>
-           <a href="https://pavlogg.github.io/torchPavl/"><img src="portfolio-foto/3.png" alt="" style="width:587px;height: 344px;"></a>
-   <img src="portfolio-foto/1.jpg" alt="" style="width:587px;height: 344px;">
-   </div>
+
+   <div id="images-wrapper"></div>
     </div>
     <div class="Contacts">
     <a class="link-up" href="#canvas"><i class="fas fa-angle-double-up button-up" ></i></a>

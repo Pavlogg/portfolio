@@ -57,8 +57,48 @@ function isNaturalNumber(n) {
     n2 = parseInt(n, 10);
   return !isNaN(n1) && n2 === n1 && n1.toString() === n;
 }
-$('projects-text2 ').on('click', function(e) {
-  e.preventDefault();
-  $(this).toggleClass('projects-text2 _active');
-  $('foto-project ').toggleClass('foto-project _active');
-});
+var activeCategory = 'all'
+
+var images = [
+  {
+    href:'https://habr.com/ru/company/iticapital/blog/485476/',
+    class:'img',
+    source: 'portfolio-foto/3.png',
+    category: 'js'
+  },
+  {
+    class:'img',
+    source: 'portfolio-foto/1.jpg',
+    category: 'react'
+  },
+  {
+    class:'img',
+    source: 'portfolio-foto/2.png',
+    category: 'html'
+  }
+];
+
+function render() {
+document
+   .getElementById('images-wrapper')
+    .innerHTML = images
+    .filter(image => {
+  if (activeCategory === 'all') {
+    return true
+  } else {
+    return image.category === activeCategory
+  }
+})
+    .map(image => 
+    `
+      <img src="${image.source}" class="${image.class} href="${image.href}" />
+    `
+).join('')
+}
+
+render(); // inital render
+
+function buttonHandler(category) {
+  activeCategory = category
+  render()
+}

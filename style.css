@@ -159,6 +159,10 @@ text-decoration: none;
 list-style: none;
 transition: 2s;
 }
+.img{
+width: 587px;
+height: 344px;
+}
 .projects-text5{
 cursor: pointer;
 font-size: 27px;    
