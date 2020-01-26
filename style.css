@@ -4,6 +4,7 @@ padding: 0;
 overflow: scroll;
 }
 html{
+background-color: black;
 scroll-behavior: smooth;
 }
 #canvas{
@@ -201,26 +202,25 @@ text-align: center;
 }
 .text-WhoAmI{
 font-family: 'Oswald', sans-serif;
+color: white;
 }
 .text-FrontEnd{
 font-family: 'Oswald', sans-serif;
+color: white;
 }
 .WhoAmI{
-justify-content: center;
-display: flex;
-top: 71vh;
-position: relative;
-width: 97vw;
-height: auto;
-flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    top: 80vh;
+    position: relative;
+    width: 97vw;
+    height: 547px;
+    flex-wrap: wrap;
 }
 .WhoAmI-block{
-margin-top: 20vh;
-margin-right: 41vw;
-top: 4vh;
-position: relative;
-width: 24vw;
-height: auto;
+    position: relative;
+    width: 40vw;
+    height: 400px;
 }
 .octagon{
 width: 300px;
@@ -247,8 +247,6 @@ text-decoration: none;
 }
 .skills{
 position: relative;
-right: 300px;
-top: 150px;
 }
 .skills-block{
 margin-block-start: 20px;
@@ -294,13 +292,16 @@ top: 20vh;
 top: 25vh;
 }
 .WhoAmI{
-top:0;
+top:22vh;
 }
 .text-WhoAmI{
 font-size: 15px;
 }
 .text-FrontEnd{
 font-size: 9px;
+}
+.projects-text2 , .projects-text3,.projects-text4,.projects-text5{
+font-size: 17px;
 }
 .skills{
 right: 0;
