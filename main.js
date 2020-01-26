@@ -61,17 +61,19 @@ var activeCategory = 'all'
 
 var images = [
   {
-    href:'https://habr.com/ru/company/iticapital/blog/485476/',
+    href:'https://pavlogg.github.io/torchPavl/',
     class:'img',
     source: 'portfolio-foto/3.png',
     category: 'js'
   },
   {
+    href:'',
     class:'img',
     source: 'portfolio-foto/1.jpg',
     category: 'react'
   },
   {
+    href:'https://pavlogg.github.io/AmliCode/',
     class:'img',
     source: 'portfolio-foto/2.png',
     category: 'html'
@@ -91,7 +93,7 @@ document
 })
     .map(image => 
     `
-      <img src="${image.source}" class="${image.class} href="${image.href}" />
+      <a  href="${image.href}"><img src="${image.source}" class="${image.class}"/></a>
     `
 ).join('')
 }
