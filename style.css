@@ -1,7 +1,6 @@
 body{
 margin: 0;
 padding: 0;
-overflow: scroll;
 }
 html{
 background-color: black;
@@ -83,6 +82,7 @@ justify-content: center;
 color: #1c4471;
 }
 .AboutBlock-text2{
+text-align: center;
 font-family: 'Oswald', sans-serif;
 font-size: 17px;
 position: relative;
@@ -201,10 +201,17 @@ justify-content: center;
 text-align: center;
 }
 .text-WhoAmI{
+width: 300px;
+justify-content: center;
+display: flex;
 font-family: 'Oswald', sans-serif;
 color: white;
 }
 .text-FrontEnd{
+width: 300px;
+display: flex;
+text-align: center;
+justify-content: center;
 font-family: 'Oswald', sans-serif;
 color: white;
 }
@@ -259,9 +266,11 @@ display: flex;
 background-color:  rgb(0, 129, 134);
 }
 .skills-text{
+padding-left: 30px;
 font-family: 'Oswald', sans-serif;
 }
 .text-block{
+padding-right: 30px;
 font-size: 17px;
 margin-inline-start: auto;
 font-family: 'Oswald', sans-serif;
@@ -269,11 +278,30 @@ font-family: 'Oswald', sans-serif;
 .foto-project_active{
 opacity: 0;
 }
+.navbar_fixed{
+position: fixed;
+top: 0;
+margin: 0;
+transition: 2s;
+}
+@-webkit-keyframes animate-logo {
+    0% {
+    background-position: 0 3200px;
+    }
+    100% {
+    background-position: 3200px 0;
+ }
+}
+/* Media */
 @media only screen and (max-width:1200px){
 .navbar-block{
+    top: 20vh;
 bottom: 0;
-top:20vh;
 }
+.navbar_fixed{
+    bottom: 0;
+    top:0vh;
+    }
 .About{
 position: relative;
 top:18vh;
@@ -306,6 +334,7 @@ font-size: 17px;
 .skills{
 right: 0;
 }
+
 @media only screen and (min-width: 40.063em) {
 .FirstAbzas {
 font-size: 40px;
@@ -325,12 +354,5 @@ font-size: 80px;
 .FirstAbzas {
 font-size: 80px;
 }
-}
-@-webkit-keyframes animate-logo {
-0% {
-background-position: 0 3200px;
-}
-100% {
-background-position: 3200px 0;
 }
 }

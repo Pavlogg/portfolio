@@ -41,9 +41,16 @@ document
 ).join('')
 }
 
-render(); // inital render
-
 function buttonHandler(category) {
   activeCategory = category
   render()
+}
+window.onscroll = function showHeader() {
+  var canvas = document.querySelector('#canvas');
+  var header = document.querySelector('.navbar-block');
+  if(window.pageYOffset > canvas.scrollHeight ){
+      header.classList.add('navbar_fixed');
+  } else{
+      header.classList.remove('navbar_fixed');
+  }
 }
