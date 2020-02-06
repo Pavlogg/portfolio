@@ -3,18 +3,13 @@ margin: 0;
 padding: 0;
 }
 html{
-background-color: black;
 scroll-behavior: smooth;
+background-color: black;
 }
 #canvas{
-width: 99vw;
-top: 0;
-left: 0;
-right: 0;
-position: absolute;
+height: 50vh;
 }
 .FirstAbzas{
-transition: 2s;
 font-size: 65px;
 position: relative;
 display: flex;
@@ -35,94 +30,77 @@ color: transparent;
 transition: font-size 500ms ease-in-out;
 }
 .navbar-block{
-transition: 1s;
-position: absolute;
 display: flex;
 list-style: none;
 font-size: 31px;
 width: 97vw;
 height: 54px;
-background-color: #b3d2f5;
 justify-content: center;
-bottom: -104px;
 border-bottom:solid 4px ;
+background-color: #b3d2f5;
 }
 .navbar{
-    color: #5b97da;
 text-decoration: none;
-font-family: 'Oswald', sans-serif;
 padding-right: 5%;
-}
-.navbar:hover{
-    color: #023873;
-    transition: 2s;
+color: #5b97da;
+font-family: 'Oswald', sans-serif;
 }
 .About-text{
-font-family: 'Oswald', sans-serif;
 display: flex;
 justify-content: center;
 font-size: 66px;
 margin-top: 157px;
 color: #80acde;
-top:65vh;
-position: relative;
+font-family: 'Oswald', sans-serif;
 }
 .About{
 justify-content: center;
 display: flex;
 top: 71vh;
-position: relative;
 width: 97vw;
 height: auto;
 }
 .AboutBlock-text{
-font-family: 'Oswald', sans-serif;
 display: flex;
 justify-content: center;
 color: #1c4471;
+font-family: 'Oswald', sans-serif;
 }
 .AboutBlock-text2{
 text-align: center;
-font-family: 'Oswald', sans-serif;
 font-size: 17px;
-position: relative;
 left: 25%;
 display: flex;
 letter-spacing: 0px;
-color: #0d4380;
-width: 50%;
 flex-wrap: wrap;
+color: #0d4380;
+font-family: 'Oswald', sans-serif;
 }
 .fas{
-color: #80acde;
 justify-content: center;
 display: flex;
 font-size: 61px;
 font-weight: 900;
+color: #80acde;
 }
 .far{
-color: #80acde;
 justify-content: center;
 display: flex;
 font-size: 61px;
 font-weight: 900;
-}
-.Projects{
-position: relative;
-top: 80vh;
+color: #80acde;
 }
 .projects-text{
-color: #2e2d84;
 font-size: 66px;
-font-family: 'Oswald', sans-serif;
 display: flex;
 justify-content: center;
 text-align: center;
+color: #2e2d84;
+font-family: 'Oswald', sans-serif;
 }
 .projects-navbar{
 height: 54px;
 transition: 1s;
-position: relative;
 display: flex;
 justify-content: center;
 width: 97vw;
@@ -133,10 +111,10 @@ font-size: 27px;
 text-align: center;
 margin-right: 5%;
 width: 8%;
-font-family: 'Oswald', sans-serif;
 text-decoration: none;
 list-style: none;
 transition: 2s;
+font-family: 'Oswald', sans-serif;
 }
 .projects-text3{
 cursor: pointer;
@@ -144,10 +122,10 @@ font-size: 27px;
 text-align: center;
 margin-right: 5%;
 width: 8%;
-font-family: 'Oswald', sans-serif;
 text-decoration: none;
 list-style: none;
 transition: 2s;
+font-family: 'Oswald', sans-serif;
 }
 .projects-text4{
 cursor: pointer;    
@@ -155,10 +133,10 @@ font-size: 27px;
 text-align: center;
 margin-right: 5%;    
 width: 8%;
-font-family: 'Oswald', sans-serif;
 text-decoration: none;
 list-style: none;
 transition: 2s;
+font-family: 'Oswald', sans-serif;
 }
 .img{
 width: 587px;
@@ -170,35 +148,21 @@ font-size: 27px;
 text-align: center;
 margin-right: 5%;    
 width: 8%;
-font-family: 'Oswald', sans-serif;
 text-decoration: none;
 list-style: none;
 transition: 2s;
+font-family: 'Oswald', sans-serif;
 }
-.projects-text2:hover{
-background-color: rgb(61, 59, 101);
-}
-.projects-text3:hover{
-background-color: rgb(61, 59, 101);
-}
-.projects-text4:hover{
-background-color: rgb(61, 59, 101);
-}
-.projects-text5:hover{
-background-color: rgb(61, 59, 101);
-}    
 .Contacts{
-position: relative;
-top:85vh;
 background-color: black;
 }
 .contacts-text{
-color: #38189c;
 font-size: 66px;
-font-family: 'Oswald', sans-serif;
 display: flex;
 justify-content: center;
 text-align: center;
+color: #38189c;
+font-family: 'Oswald', sans-serif;
 }
 .text-WhoAmI{
 width: 300px;
@@ -216,18 +180,16 @@ font-family: 'Oswald', sans-serif;
 color: white;
 }
 .WhoAmI{
-    justify-content: center;
-    display: flex;
-    top: 80vh;
-    position: relative;
-    width: 97vw;
-    height: 547px;
-    flex-wrap: wrap;
+justify-content: center;
+display: flex;
+padding-top: 15%;
+width: 97vw;
+height: 547px;
+flex-wrap: wrap;
 }
 .WhoAmI-block{
-    position: relative;
-    width: 40vw;
-    height: 400px;
+width: 40vw;
+height: 400px;
 }
 .octagon{
 width: 300px;
@@ -252,14 +214,11 @@ cursor: pointer;
 list-style: none;
 text-decoration: none;
 }
-.skills{
-position: relative;
-}
 .skills-block{
 margin-block-start: 20px;
 width: 400px;
-background-color: #7776ca;
 display: flex;
+background-color: #7776ca;
 }
 .skills-inside{
 display: flex;
@@ -275,52 +234,48 @@ font-size: 17px;
 margin-inline-start: auto;
 font-family: 'Oswald', sans-serif;
 }
-.foto-project_active{
-opacity: 0;
-}
 .navbar_fixed{
 position: fixed;
 top: 0;
 margin: 0;
-transition: 2s;
 }
 @-webkit-keyframes animate-logo {
-    0% {
-    background-position: 0 3200px;
-    }
-    100% {
-    background-position: 3200px 0;
- }
+0% {
+background-position: 0 3200px;
 }
+100% {
+background-position: 3200px 0;
+}
+}
+/* Hover */
+.navbar:hover{
+transition: 2s;
+color: #023873;
+}
+.projects-text2:hover{
+background-color: rgb(61, 59, 101);
+}
+.projects-text3:hover{
+background-color: rgb(61, 59, 101);
+}
+.projects-text4:hover{
+background-color: rgb(61, 59, 101);
+}
+.projects-text5:hover{
+background-color: rgb(61, 59, 101);
+}    
 /* Media */
 @media only screen and (max-width:1200px){
 .navbar-block{
-    top: 20vh;
+top: 20vh;
 bottom: 0;
 }
 .navbar_fixed{
-    bottom: 0;
-    top:0vh;
-    }
-.About{
-position: relative;
-top:18vh;
-}
-.About-text{
-position: relative;
-top: 9vh;
+bottom: 0;
+top:0vh;
 }
 #canvas{
 height: 20%;
-}
-.Projects{
-top: 20vh;
-}
-.Contacts{
-top: 25vh;
-}
-.WhoAmI{
-top:22vh;
 }
 .text-WhoAmI{
 font-size: 15px;
@@ -331,10 +286,6 @@ font-size: 9px;
 .projects-text2 , .projects-text3,.projects-text4,.projects-text5{
 font-size: 17px;
 }
-.skills{
-right: 0;
-}
-
 @media only screen and (min-width: 40.063em) {
 .FirstAbzas {
 font-size: 40px;
