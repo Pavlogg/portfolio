@@ -289,15 +289,7 @@ font-size: 17px;
 @media only screen and (min-width: 40.063em) {
 .FirstAbzas {
 font-size: 40px;
-color: transparent;
--webkit-background-clip: text;
--webkit-animation: animate-logo;
--webkit-animation-delay: 0;
--webkit-animation-duration: 7s;
--webkit-animation-timing-function: linear;
--webkit-animation-iteration-count: infinite;
--webkit-animation-fill-mode: forwards;
-transition: font-size 500ms ease-in-out;
+color: #3078b7;
 }
 }
 @media only screen and (min-width: 64.063em) {
