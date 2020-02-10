@@ -16,18 +16,7 @@ display: flex;
 justify-content: center;
 text-align: center;
 font-family: 'Oswald', sans-serif;
-background: -webkit-linear-gradient(left, #33235B, #D62229, #E97639, #792042, #33235B);
-background: linear-gradient(left, #33235B, #D62229, #E97639, #792042, #33235B);
-background-size: 3200px 200px;
-color: transparent;
--webkit-background-clip: text;
--webkit-animation: animate-logo;
--webkit-animation-delay: 0;
--webkit-animation-duration: 7s;
--webkit-animation-timing-function: linear;
--webkit-animation-iteration-count: infinite;
--webkit-animation-fill-mode: forwards;
-transition: font-size 500ms ease-in-out;
+
 }
 .navbar-block{
 display: flex;
