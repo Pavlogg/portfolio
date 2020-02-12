@@ -40,7 +40,9 @@ document
     `
 ).join('')
 }
-
+window.addEventListener('load', function() {
+  render()
+})
 function buttonHandler(category) {
   activeCategory = category
   render()
