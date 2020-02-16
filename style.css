@@ -70,6 +70,7 @@ font-family: 'Oswald', sans-serif;
 text-align: center;
 font-size: 17px;
 left: 25%;
+width: 289px;
 display: flex;
 letter-spacing: 0px;
 flex-wrap: wrap;
@@ -276,6 +277,9 @@ top:0vh;
 }
 #canvas{
 height: 20%;
+}
+.AboutBlock-text2{
+width: auto;
 }
 .projects-text2 , .projects-text3,.projects-text4,.projects-text5{
 font-size: 17px;
