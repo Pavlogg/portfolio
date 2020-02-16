@@ -192,9 +192,9 @@ width: 40vw;
 height: 400px;
 }
 .octagon{
-width: 300px;
-height: 300px;
-border-radius: 100px 100px 100px 100px; 
+width: 295px;
+height: 351px;
+padding-top: 20px;
 }
 .icons{
 display: flex;
@@ -276,12 +276,6 @@ top:0vh;
 }
 #canvas{
 height: 20%;
-}
-.text-WhoAmI{
-font-size: 15px;
-}
-.text-FrontEnd{
-font-size: 9px;
 }
 .projects-text2 , .projects-text3,.projects-text4,.projects-text5{
 font-size: 17px;
