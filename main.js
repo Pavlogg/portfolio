@@ -20,6 +20,12 @@ var images = [
     class:'img',
     source: 'portfolio-foto/2.png',
     category: 'html'
+  },
+  {
+    href:'https://pavlogg.github.io/Bootstrap/',
+    class:'img',
+    source: 'portfolio-foto/4.png',
+    category: 'bootstrap'
   }
 ];
 
