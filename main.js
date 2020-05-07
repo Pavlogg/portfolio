@@ -4,12 +4,6 @@ var activeCategory = 'all'
 
 var images = [
   {
-    href:'https://pavlogg.github.io/torchPavl/',
-    class:'img',
-    source: 'portfolio-foto/3.png',
-    category: 'js'
-  },
-  {
     href:'',
     class:'img',
     source: 'portfolio-foto/1.jpg',
@@ -26,6 +20,12 @@ var images = [
     class:'img',
     source: 'portfolio-foto/4.png',
     category: 'bootstrap'
+  },
+  {
+    href:'https://pavlogg.github.io/Game/',
+    class:'img',
+    source: 'portfolio-foto/5.png',
+    category: 'html'
   }
 ];
 
